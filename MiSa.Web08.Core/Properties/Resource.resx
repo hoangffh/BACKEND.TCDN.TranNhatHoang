@@ -1,0 +1,345 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="EmployeeList" xml:space="preserve">
+    <value>Danh sach nhan vien</value>
+  </data>
+  <data name="Enum_Gender_Female" xml:space="preserve">
+    <value>Nữ</value>
+  </data>
+  <data name="Enum_Gender_Male" xml:space="preserve">
+    <value>Nam</value>
+  </data>
+  <data name="Enum_Gender_Other" xml:space="preserve">
+    <value>Khác</value>
+  </data>
+  <data name="Enum_Type_FinishedProduct" xml:space="preserve">
+    <value>Thành phẩm</value>
+  </data>
+  <data name="Enum_Type_Goods" xml:space="preserve">
+    <value>Hàng hóa</value>
+  </data>
+  <data name="Enum_Type_NotDetermined" xml:space="preserve">
+    <value>Chưa xác định</value>
+  </data>
+  <data name="Enum_Type_NotReduction" xml:space="preserve">
+    <value>Không giảm thuế</value>
+  </data>
+  <data name="Enum_Type_NotUsing" xml:space="preserve">
+    <value>Ngừng sử dụng</value>
+  </data>
+  <data name="Enum_Type_RawMaterial" xml:space="preserve">
+    <value>Nguyên vật liệu</value>
+  </data>
+  <data name="Enum_Type_Reduction" xml:space="preserve">
+    <value>Có giảm thuế</value>
+  </data>
+  <data name="Enum_Type_Service" xml:space="preserve">
+    <value>Dịch vụ</value>
+  </data>
+  <data name="Enum_Type_Tool" xml:space="preserve">
+    <value>Công cụ dụng cụ</value>
+  </data>
+  <data name="Enum_Type_Using" xml:space="preserve">
+    <value>Đang sử dụng</value>
+  </data>
+  <data name="Excel_col_1" xml:space="preserve">
+    <value>STT</value>
+  </data>
+  <data name="Excel_col_2" xml:space="preserve">
+    <value>Mã nhân viên</value>
+  </data>
+  <data name="Excel_col_3" xml:space="preserve">
+    <value>Tên nhân viên</value>
+  </data>
+  <data name="Excel_col_4" xml:space="preserve">
+    <value>Giới tính</value>
+  </data>
+  <data name="Excel_col_5" xml:space="preserve">
+    <value>Ngày sinh</value>
+  </data>
+  <data name="Excel_col_6" xml:space="preserve">
+    <value>Vị trí</value>
+  </data>
+  <data name="Excel_col_7" xml:space="preserve">
+    <value>Tên phòng ban</value>
+  </data>
+  <data name="Excel_col_8" xml:space="preserve">
+    <value>Số TK</value>
+  </data>
+  <data name="Excel_col_9" xml:space="preserve">
+    <value>Tên ngân hàng</value>
+  </data>
+  <data name="Excel_groupCategory_col_2" xml:space="preserve">
+    <value>Mã nhóm vật tư hàng hóa , dịch vụ</value>
+  </data>
+  <data name="Excel_groupCategory_col_3" xml:space="preserve">
+    <value>Tên nhóm vật tư hàng hóa , dịch vụ</value>
+  </data>
+  <data name="Excel_groupCategory_col_Status" xml:space="preserve">
+    <value>Trạng thái</value>
+  </data>
+  <data name="Excel_product_col_10" xml:space="preserve">
+    <value>Số lượng tồn</value>
+  </data>
+  <data name="Excel_product_col_11" xml:space="preserve">
+    <value>Giá trị tồn</value>
+  </data>
+  <data name="Excel_product_col_12" xml:space="preserve">
+    <value>Diễn giải khi mua</value>
+  </data>
+  <data name="Excel_product_col_13" xml:space="preserve">
+    <value>Diễn giải khi bán</value>
+  </data>
+  <data name="Excel_product_col_14" xml:space="preserve">
+    <value>Tài khoản giảm giá</value>
+  </data>
+  <data name="Excel_product_col_15" xml:space="preserve">
+    <value>Tài khoản kho</value>
+  </data>
+  <data name="Excel_product_col_16" xml:space="preserve">
+    <value>Tài khoản trả lại</value>
+  </data>
+  <data name="Excel_product_col_17" xml:space="preserve">
+    <value>Tài khoản doanh thu</value>
+  </data>
+  <data name="Excel_product_col_18" xml:space="preserve">
+    <value>Tài khoản chi phí</value>
+  </data>
+  <data name="Excel_product_col_19" xml:space="preserve">
+    <value>Tài khoản chiết khấu</value>
+  </data>
+  <data name="Excel_product_col_2" xml:space="preserve">
+    <value>Mã vật tư , hàng hóa</value>
+  </data>
+  <data name="Excel_product_col_20" xml:space="preserve">
+    <value>Tỉ lệ chiết khấu khi mua</value>
+  </data>
+  <data name="Excel_product_col_21" xml:space="preserve">
+    <value>Đơn giá mua cố định</value>
+  </data>
+  <data name="Excel_product_col_22" xml:space="preserve">
+    <value>Đơn giá mua gần nhất</value>
+  </data>
+  <data name="Excel_product_col_23" xml:space="preserve">
+    <value>Đơn giá bán</value>
+  </data>
+  <data name="Excel_product_col_24" xml:space="preserve">
+    <value>Thuế vat</value>
+  </data>
+  <data name="Excel_product_col_25" xml:space="preserve">
+    <value>Thuế nhập khẩu</value>
+  </data>
+  <data name="Excel_product_col_26" xml:space="preserve">
+    <value>Thuế xuất khẩu</value>
+  </data>
+  <data name="Excel_product_col_27" xml:space="preserve">
+    <value>Nhóm hàng hóa chiu thuế đặc biệt</value>
+  </data>
+  <data name="Excel_product_col_28" xml:space="preserve">
+    <value>Trạng thái</value>
+  </data>
+  <data name="Excel_product_col_29" xml:space="preserve">
+    <value>Loại vật tư , hàng hóa</value>
+  </data>
+  <data name="Excel_product_col_3" xml:space="preserve">
+    <value>Tên vật tư , hàng hóa</value>
+  </data>
+  <data name="Excel_product_col_30" xml:space="preserve">
+    <value>Mã kho</value>
+  </data>
+  <data name="Excel_product_col_31" xml:space="preserve">
+    <value>Tên đơn vị tính</value>
+  </data>
+  <data name="Excel_product_col_4" xml:space="preserve">
+    <value>Giảm thuế</value>
+  </data>
+  <data name="Excel_product_col_5" xml:space="preserve">
+    <value>Mã nhóm vật tư , hàng hóa</value>
+  </data>
+  <data name="Excel_product_col_6" xml:space="preserve">
+    <value>Thời hạn bảo hành</value>
+  </data>
+  <data name="Excel_product_col_7" xml:space="preserve">
+    <value>Số lượng tối thiểu</value>
+  </data>
+  <data name="Excel_product_col_8" xml:space="preserve">
+    <value>Nguốc gốc</value>
+  </data>
+  <data name="Excel_product_col_9" xml:space="preserve">
+    <value>Mô tả</value>
+  </data>
+  <data name="Excel_unit_col_2" xml:space="preserve">
+    <value>Đơn vị tính</value>
+  </data>
+  <data name="Excel_unit_col_3" xml:space="preserve">
+    <value>Mô tả</value>
+  </data>
+  <data name="Excel_warehouse_col_2" xml:space="preserve">
+    <value>Mã kho</value>
+  </data>
+  <data name="Excel_warehouse_col_3" xml:space="preserve">
+    <value>Tên kho</value>
+  </data>
+  <data name="Excel_warehouse_col_4" xml:space="preserve">
+    <value>Địa chỉ</value>
+  </data>
+  <data name="Excel_warehouse_col_5" xml:space="preserve">
+    <value>Chi nhánh</value>
+  </data>
+  <data name="ExceptionMISA" xml:space="preserve">
+    <value>Có lỗi, vui lòng liên hệ MISA để được trợ giúp !</value>
+  </data>
+  <data name="FileNameExcel" xml:space="preserve">
+    <value>danh_sach_nhan_vien</value>
+  </data>
+  <data name="File_name_excel_product" xml:space="preserve">
+    <value>Danh_sach_hang_hoa</value>
+  </data>
+  <data name="GroupCategoryList" xml:space="preserve">
+    <value>Danh sách nhóm vật tư , hàng hóa</value>
+  </data>
+  <data name="NameSheet" xml:space="preserve">
+    <value>Danh sách nhân viên</value>
+  </data>
+  <data name="Product_list_header" xml:space="preserve">
+    <value>Danh sách vật tư hàng hóa</value>
+  </data>
+  <data name="UnitList" xml:space="preserve">
+    <value>Danh sách đơn vị tính</value>
+  </data>
+  <data name="ValidateDateMess" xml:space="preserve">
+    <value>Ngày bạn nhập lớn hơn ngày hiện tại !</value>
+  </data>
+  <data name="ValidateEmailMess" xml:space="preserve">
+    <value>Trường này phải là Email !</value>
+  </data>
+  <data name="ValidateEmployeeCodeMess" xml:space="preserve">
+    <value>Mã nhân viên không được phép trùng !</value>
+  </data>
+  <data name="ValidateErrMsg" xml:space="preserve">
+    <value>Dữ liệu không hợp hệ, vui lòng kiểm tra lại !</value>
+  </data>
+  <data name="ValidateNotEmptyMess" xml:space="preserve">
+    <value>Trường này không được phép để trống !</value>
+  </data>
+  <data name="WarehouseList" xml:space="preserve">
+    <value>Danh sách kho</value>
+  </data>
+</root>
